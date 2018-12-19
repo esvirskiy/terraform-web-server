@@ -57,7 +57,7 @@ resource "aws_instance" "web_server" {
     instance_type = "t2.micro"
     key_name      = "web_server"
     tags {
-        Name = "web-server"
+        Name = "terraform-web-server"
     }
 
   connection {
